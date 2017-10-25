@@ -1,0 +1,11 @@
+extends ../layout
+block content
+	link(href='css/admin.css',rel='stylesheet')
+	extends ../includes/adminHeader
+	div(class='admin')
+		div(class='contentTitle') 标题：
+			input(type='text',placeholder='此处添加文章的标题')
+		textarea(class='contentInfo',placeholder='此处添加文章内容')
+		div(class='contentMenu')
+			input(type='button',value='取消')
+			input(type='button',value='发布')

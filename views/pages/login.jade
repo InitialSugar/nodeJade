@@ -1,0 +1,12 @@
+extends ../layout
+block content
+	link(href='css/login.css',rel='stylesheet')
+	div(class='login')
+		h1 Login Now
+		div(id='userName') 账号：
+			input(type='text',placeholder='请输入你的账号ID')
+		div(id='userPwd') 密码：
+			input(type='text',placeholder='请输入你的账号密码')
+		input(type='button',value='登   录',id='login',onclick='window.location.href="/"')
+		a(href='register') 还没有账号？去注册
+

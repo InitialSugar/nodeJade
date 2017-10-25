@@ -1,0 +1,91 @@
+.login{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	background: #2fe4f8;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px gray;
+}
+.login>h1{
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0 0 0;
+	font-weight: bolder;
+	color: white;
+}
+#userName{
+	width: 300px;
+	height: 30px;
+	margin:15px auto;
+	background: white;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 15px;
+	border-radius: 5px;
+	color: #666;
+}
+#userName>input{
+	width: 230px;
+	border:none;
+	outline: none;
+}
+#userPwd{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	background: white;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 15px;
+	border-radius: 5px;
+	color: #666;
+}
+#userPwd>input{
+	width: 230px;
+	border:none;
+	outline: none;
+}
+#userTitle{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto 15px auto;
+	background: white;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 15px;
+	border-radius: 5px;
+	color: #666;
+}
+#userTitle>input{
+	width: 230px;
+	border:none;
+	outline: none;
+}
+#login{
+	width: 315px;
+	border: 2px solid white;
+	outline: none;
+	display: block;
+	margin: 15px auto 0 auto;
+	border-radius: 5px;
+	height: 30px;
+	background:#2fe4f8;
+	color: white;
+}
+#login:hover{
+	background: white;
+	color: #2fe4f8;
+}
+.login>a{
+	font-size: 12px;
+	float: right;
+	margin: 25px 50px 0 0;
+}
+.login a:hover{
+	color: #ff0053;
+}

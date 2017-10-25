@@ -1,0 +1,26 @@
+
+.list{
+	list-style: none;
+	width: 1024px;
+	height: 45px;
+}
+.list>li{
+	width: 1024px;
+	padding: 10px 0;
+	border-bottom: 1px dotted #888;
+	color: #777;
+}
+.list>li>h1{
+	font-size: 16px;
+	font-weight: normal;
+	float: left;
+	width: 900px;
+}
+.list>li>span{
+	line-height: 10px;
+	font-size: 16px;
+}
+.list li:hover{
+	color: #ff0053;
+	cursor: pointer;
+}

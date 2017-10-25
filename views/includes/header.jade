@@ -1,0 +1,18 @@
+link(href='css/header.css',rel='stylesheet')
+link(href='css/common.css',rel='stylesheet')
+script(href='js/jquery-3.2.1.min.js')
+div(class='top')
+	div(class='top_banner') 
+		img(src='images/logo.png',class='logo')
+		ul(id='menu')
+			li(onclick='window.location.href="/"') 首页
+			li(onclick='window.location.href="news"') 热闻
+			li(onclick='window.location.href="information"') 通知
+			li(onclick='window.location.href="recommend"') 推荐
+			li(onclick='window.location.href="aboutMe"') 关于我
+	div(class='titleBar') 
+		div(class='titleBarMiddle')
+			h1 #{listTitle}
+			a(href='javascript:;',onclick="window.location.href='login'") 登录
+			a(href='javascript:;',onclick="window.location.href='register'") 注册
+	block content

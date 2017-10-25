@@ -1,0 +1,57 @@
+.admin{
+	width: 1024px;
+	margin: 10px auto;
+}
+.adminList{
+	list-style: none;
+}
+.adminList>li{
+	line-height: 40px;
+	border: 1px dotted #888;
+	margin: 0 0 5px 0;
+	padding: 0 10px;
+}
+.newsMenu{
+	width: 140px;
+	float: right;
+}
+.newsMenu>input{
+	width: 50px;
+	height: 25px;
+	border-radius: 5px;
+	border:1px solid #666;
+	outline: none;
+	margin: 8px;
+}
+.newsMenu>input:hover{
+	color: #ff0053;
+	cursor: pointer;
+}
+.contentTitle{
+	width: 1024px;
+	height: 45px;
+	padding: 15px 0 0 0;
+}
+.contentTitle>input{
+	width: 975px;
+	height: 30px;
+	padding-left: 10px;
+}
+.contentInfo{
+	width: 1024px;
+	resize: none;
+	height: 500px;
+	padding: 10px 0 0 10px;
+}
+.contentMenu{
+	width: 1024px;
+	text-align: right;
+}
+.contentMenu>input{
+	width: 100px;
+	height: 25px;
+	margin: 10px 0 10px 10px ;
+	border-radius: 5px;
+	outline: none;
+	border:1px solid #666;
+}
